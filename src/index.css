@@ -10,7 +10,13 @@ body {
   flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: Poppins, sans-serif;
 }
 
@@ -29,7 +35,7 @@ footer {
   margin-top: auto;
   padding: 40px;
   background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30484.jpg?w=740&t=st=1706279292~exp=1706279892~hmac=32fe46c7a6e2ad2781fb50e6425ceeaa92abd1ac279dee5652827a0142b1c818");
-color: white;
+  color: white;
 }
 
 footer h6 {
@@ -89,8 +95,8 @@ main {
 }
 
 .content-container {
- padding: 24px;
- margin: 12px 45px;
+  padding: 24px;
+  margin: 12px 45px;
 }
 
 .courses-container {
