@@ -1,3 +1,7 @@
-export const BackgroundImage = () => {
-  return <div className="banner-container"></div>;
+export const Banner = () => {
+  return (
+    <div className="banner-container">
+      <img src="../../public/Codefest Banner.jpg" alt="" />
+    </div>
+  );
 };
