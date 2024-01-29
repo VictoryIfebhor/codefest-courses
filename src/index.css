@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 h1,
@@ -25,17 +26,19 @@ p {
   margin-top: 12px;
 }
 
-header {
-  height: 40vh;
+section {
+  margin: 36px 0px;
+  /* border: 2px solid orange; */
 }
 
 footer {
   border: 2px solid #aaa;
-  min-height: 200px;
   margin-top: auto;
   padding: 40px;
-  background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30484.jpg?w=740&t=st=1706279292~exp=1706279892~hmac=32fe46c7a6e2ad2781fb50e6425ceeaa92abd1ac279dee5652827a0142b1c818");
   color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer h6 {
@@ -48,23 +51,49 @@ footer p {
 }
 
 .banner-container {
+  height: 30vh;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.banner-container img {
+  width: 100%;
   height: 100%;
-  background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30484.jpg?w=740&t=st=1706279292~exp=1706279892~hmac=32fe46c7a6e2ad2781fb50e6425ceeaa92abd1ac279dee5652827a0142b1c818");
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  background-color: #fff;
   border: 2px solid black;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
+  max-height: 100px;
+  background-color: rgb(4, 24, 55);
+}
+
+nav div {
+  max-width: inherit;
+}
+
+.codefest-link {
+  text-decoration: none;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.codefest-link:hover {
+  text-decoration: underline;
+}
+
+.left-nav img {
+  height: 100%;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
 }
 
 .left-nav {
@@ -91,13 +120,15 @@ nav a {
 }
 
 main {
-  margin: 24px;
+  margin: 12px 5%;
+  padding: 16px;
+  /* border: 2px solid black; */
 }
 
-.content-container {
+/* .content-container {
   padding: 24px;
   margin: 12px 45px;
-}
+} */
 
 .courses-container {
   display: grid;
@@ -108,10 +139,10 @@ main {
   width: 80%;
 }
 
-.course-card {
+/* .course-card {
   border: 2px solid #ccc;
   border-radius: 16px;
-}
+} */
 
 .image-wrapper {
   height: 50%;
@@ -132,4 +163,67 @@ main {
 .course-div h4 {
   font-size: 24px;
   margin-bottom: 24px;
+}
+
+/* Styles for CourseCard, CourseModal, and CourseSlider */
+
+/* CourseCard.css */
+
+.course-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  cursor: pointer;
+  min-width: 550px;
+}
+
+.course-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-content p {
+  line-height: 1.5;
+}
+
+/* CourseModal.css */
+
+.course-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* CourseSlider.css */
+
+.course-slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  max-width: 100%;
+  padding: 16px;
+}
+
+.course-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.course-slider > div {
+  scroll-snap-align: start;
 }
