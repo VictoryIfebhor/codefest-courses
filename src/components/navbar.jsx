@@ -1,7 +1,12 @@
 export const Navbar = () => {
   return (
     <nav>
-      <div className="left-nav nav-item">Codefest</div>
+      <div className="left-nav nav-item">
+        <img
+          src="https://codefestuniversity.online/assets/logo-fa6ae0c9.png"
+          alt=""
+        />
+      </div>
       <div className="right-nav nav-item">
         <span>
           <a href="">home</a>
