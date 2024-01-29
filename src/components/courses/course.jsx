@@ -1,11 +1,11 @@
-import { CourseDiv } from "./courseDiv";
-import { CourseImage } from "./courseImage";
-
-export const Card = () => {
+export const CourseCard = ({ course, onClick }) => {
   return (
-    <div className="course-card">
-      <CourseImage />
-      <CourseDiv />
+    <div className="course-card" onClick={() => onClick(course)}>
+      <img src={course.image} alt="alt" />
+      <div className="card-content">
+        <h3>{course.title}</h3>
+        <p>{course.description}</p>
+      </div>
     </div>
   );
 };
