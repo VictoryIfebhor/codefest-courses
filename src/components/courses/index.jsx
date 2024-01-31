@@ -36,6 +36,13 @@ const courses = [
     image:
       "https://www.betterteam.com/images/unix-system-administrator-job-description-6010x4012-2020128.jpeg?crop=21:16,smart&width=420&dpr=2&format=pjpg&auto=webp&quality=85",
   },
+  {
+    title: "Cyber Security",
+    description:
+      "Introduction to Digital Security, Secured Enterprise Architecture (SEA), Risk and Mitigation, Threats Attacks & Vulnerabilities, Cyber Warfare",
+    image:
+      "https://st4.depositphotos.com/22162388/23954/i/450/depositphotos_239549088-stock-photo-cyber-security-data-protection-information.jpg",
+  },
 ];
 
 export const Courses = () => {
