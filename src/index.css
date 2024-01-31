@@ -28,7 +28,6 @@ p {
 
 section {
   margin: 36px 0px;
-  /* border: 2px solid orange; */
 }
 
 footer {
@@ -39,6 +38,15 @@ footer {
   background-color: black;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.left-footer {
+  max-width: 200px;
+}
+
+.left-footer img {
+  width: 100%;
 }
 
 footer h6 {
@@ -73,10 +81,6 @@ nav {
   background-color: rgb(4, 24, 55);
 }
 
-nav div {
-  max-width: inherit;
-}
-
 .codefest-link {
   text-decoration: none;
   margin-left: 4px;
@@ -89,6 +93,7 @@ nav div {
 
 .left-nav img {
   height: 100%;
+  max-width: 100%;
 }
 
 nav a {
@@ -140,11 +145,6 @@ main {
   width: 80%;
 }
 
-/* .course-card {
-  border: 2px solid #ccc;
-  border-radius: 16px;
-} */
-
 .image-wrapper {
   height: 50%;
   width: 100%;
@@ -184,7 +184,7 @@ main {
 }
 
 .card-content {
-  padding: 30px;
+  padding: 10px;
 }
 
 .card-content p {
