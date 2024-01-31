@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  transition: all 0.3s ease-out;
 }
 
 body {
@@ -79,6 +80,50 @@ nav {
   width: 100%;
   max-height: 100px;
   background-color: rgb(4, 24, 55);
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.left-nav img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.right-nav span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.4);
+  color: white;
+}
+
+.menus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 3px solid black; */
+  width: 350px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: rgb(60, 60, 65);
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.hamburger {
+  display: none;
+  border: 2px solid white;
+  color: white;
+  padding: 12px;
 }
 
 .codefest-link {
@@ -91,50 +136,11 @@ nav {
   text-decoration: underline;
 }
 
-.left-nav img {
-  height: 100%;
-  max-width: 100%;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
-
-.left-nav {
-  /* border: 2px solid black; */
-  font-size: 32px;
-  margin-left: 40px;
-}
-
-.right-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* border: 3px solid black; */
-  width: 50%;
-  text-transform: capitalize;
-  font-size: 18px;
-  color: rgb(60, 60, 65);
-  font-family: Poppins, sans-serif;
-  text-decoration: none;
-}
-
-.right-nav:hover {
-  cursor: pointer;
-}
-
 main {
   margin: 12px 5%;
   padding: 16px;
   /* border: 2px solid black; */
 }
-
-/* .content-container {
-  padding: 24px;
-  margin: 12px 45px;
-} */
 
 .courses-container {
   display: grid;
@@ -172,9 +178,15 @@ main {
 
 .course-card {
   border: 1px solid #ccc;
-  margin: 10px;
+  margin: 20px;
   cursor: pointer;
-  min-width: 550px;
+  width: 100%;
+}
+
+.course-card:hover {
+  transform: scale(1.1);
+  z-index: 0;
+  box-shadow: 10px 10px 10px #c1e4fa;
 }
 
 .course-card img {
@@ -215,16 +227,34 @@ main {
 
 .course-slider {
   display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 100%;
-  padding: 16px;
-}
-
-.course-slider::-webkit-scrollbar {
-  display: none;
 }
 
 .course-slider > div {
+  flex: 0 0 calc(50% - 50px);
+  margin-bottom: 20px;
+}
+.course-slider > div {
   scroll-snap-align: start;
+}
+
+@media (max-width: 767px) {
+  .course-slider > div {
+    flex: 0 0 calc(100% - 20px);
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    color: white;
+  }
+
+  footer {
+    flex-direction: column;
+  }
 }
