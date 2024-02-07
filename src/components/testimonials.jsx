@@ -6,24 +6,27 @@ const Testimonials = () => {
   const testimonialData = [
     {
       id: 1,
-      name: "John Doe",
-      occupation: "Web Developer",
+      name: "Udeh Evander Chika",
+      occupation: "Student",
       comment:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+        "I Thank Codefest for this wonderful program. They really helped me kickstart my coding journey by giving me the strong foundation that I needed to excel. I couldn't have asked for a better experience. Thank you.",
+      url: "https://codefestuniversity.online/assets/people01-d3d1b087.png",
     },
     {
       id: 2,
-      name: "Jane Smith",
-      occupation: "Graphic Designer",
+      name: "Alonu Toluwani Deborah",
+      occupation: "Student",
       comment:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "I owe the initiators of this program a big 'THANK YOU'. The program has impacted on my life in no small ways. when i thought of web design, I never meant it to be as intense as it turned out to be but with all the helpful activities and exercises that the course provided I was able to scale through perfectly. Thanks and Thanks again",
+      url: "https://codefestuniversity.online/assets/people02-aec8cf4b.png",
     },
     {
       id: 3,
-      name: "Michael Johnson",
-      occupation: "Marketing Manager",
+      name: "Nwankwo Christian Keleolisa",
+      occupation: "Student",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate natus velit. Neque quaerat dolores quidem a qui doloremque nemo nostrum dicta temporibus. Sed soluta possimus quos harum alias in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam. Officia ut impedit ipsa sequi dolores blanditiis quam itaque, aperiam doloribus ducimus quod. Incidunt dolore iste tenetur, quasi quibusdam eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus illum aut hic fugiat doloremque magni et dolores veniam ullam sapiente ipsum voluptate aspernatur assumenda, officia quas obcaecati maiores perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magnam veritatis at fugiat blanditiis suscipit natus veniam aspernatur alias quibusdam accusantium, culpa, corporis ab eveniet necessitatibus atque odit ad qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, a. A reprehenderit odit excepturi officia cum optio eos odio. Nostrum non expedita porro harum eius similique natus quisquam, amet culpa?. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "I'm grateful to Codefest Academy and to all initiators of this program for giving me a chance to be a web developer. Web design is the dream i wished for it to come true and and Codefest made me achieve this dreams that i have passion for, May God continue to bless you all for this good work.",
+      url: "https://codefestuniversity.online/assets/people03-946f1a16.png",
     },
   ];
 
@@ -53,10 +56,7 @@ const Testimonials = () => {
         {testimonialData.map((testimonial) => (
           <div key={testimonial.id} className="testimonial">
             <div className="testimonial-header">
-              <img
-                src={`https://randomuser.me/api/portraits/men/${testimonial.id}.jpg`}
-                alt={testimonial.name}
-              />
+              <img src={testimonial.url} alt={testimonial.name} />
               <div className="testimonial-info">
                 <h3>{testimonial.name}</h3>
                 <p>{testimonial.occupation}</p>

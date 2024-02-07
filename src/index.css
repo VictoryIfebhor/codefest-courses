@@ -285,6 +285,10 @@ main {
   margin-top: 10px;
 }
 
+.testimonial-header img {
+  width: 100px;
+}
+
 .see-more {
   color: blue;
   cursor: pointer;
