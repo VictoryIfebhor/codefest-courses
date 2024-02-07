@@ -51,30 +51,31 @@ const Testimonials = () => {
 
   return (
     <ContentSection>
-      <h1 className="center">Testimonials</h1>
-      <div className="testimonials">
-        {testimonialData.map((testimonial) => (
-          <div key={testimonial.id} className="testimonial">
-            <div className="testimonial-header">
-              <img src={testimonial.url} alt={testimonial.name} />
-              <div className="testimonial-info">
-                <h3>{testimonial.name}</h3>
-                <p>{testimonial.occupation}</p>
+      <div className="testimonial-section">
+        <h1 className="center">Testimonials</h1>
+        <div className="testimonials">
+          {testimonialData.map((testimonial) => (
+            <div key={testimonial.id} className="testimonial">
+              <div className="testimonial-header">
+                <img src={testimonial.url} alt={testimonial.name} />
+                <div className="testimonial-info">
+                  <h3>{testimonial.name}</h3>
+                  <p>{testimonial.occupation}</p>
+                </div>
               </div>
-            </div>
-            <div className="testimonial-body">
-              <p>
-                {isExpanded(testimonial.id)
-                  ? testimonial.comment
-                  : `${testimonial.comment.slice(0, 100)}...`}
-              </p>
-              <span
-                className="see-more"
-                onClick={() => toggleExpanded(testimonial.id)}
-              >
-                {isExpanded(testimonial.id) ? "See less" : "See more"}
-              </span>
-              {/* {expandedTestimonials.includes(testimonial.id) ? (
+              <div className="testimonial-body">
+                <p>
+                  {isExpanded(testimonial.id)
+                    ? testimonial.comment
+                    : `${testimonial.comment.slice(0, 100)}...`}
+                </p>
+                <span
+                  className="see-more"
+                  onClick={() => toggleExpanded(testimonial.id)}
+                >
+                  {isExpanded(testimonial.id) ? "See less" : "See more"}
+                </span>
+                {/* {expandedTestimonials.includes(testimonial.id) ? (
                 <p>{testimonial.comment}</p>
               ) : (
                 <p>
@@ -87,9 +88,10 @@ const Testimonials = () => {
                   </span>
                 </p>
               )} */}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </ContentSection>
   );
