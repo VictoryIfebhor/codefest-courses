@@ -72,9 +72,8 @@ footer {
 }
 
 .banner-container {
-  height: 30vh;
+  height: 80vh;
   width: 100%;
-  border: 2px solid black;
 }
 
 .banner-container img {
@@ -295,6 +294,10 @@ main {
 }
 
 @media (max-width: 767px) {
+  .banner-container {
+    height: auto;
+  }
+
   .course-slider > div {
     flex: 0 0 calc(100% - 20px);
   }
