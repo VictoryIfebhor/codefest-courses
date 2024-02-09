@@ -19,7 +19,7 @@ export const Navbar = () => {
             <a href="#footer">contact</a>
           </span>
         </div>
-        <div className="hamburger">=</div>
+        {/* <div className="hamburger">=</div> */}
       </div>
     </nav>
   );
