@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CourseCard } from "./courses/course";
-import CourseModal from "./modal";
+import { CourseModal } from "./modal";
 
 const CourseSlider = ({ courses }) => {
   const [selectedCourse, setSelectedCourse] = useState(null);
@@ -18,7 +18,7 @@ const CourseSlider = ({ courses }) => {
       {courses.map((course, index) => (
         <CourseCard key={index} course={course} onClick={handleCardClick} />
       ))}
-      {selectedCourse && false && (
+      {selectedCourse && (
         <CourseModal course={selectedCourse} onClose={handleModalClose} />
       )}
     </div>
