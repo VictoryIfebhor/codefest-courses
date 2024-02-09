@@ -8,6 +8,27 @@ const courses = [
       "Data Theory, Statistics, Cleaning Techniques, Manipulation, Data Analysis Methodology, Data Analytic Tools, Visualization Techniques",
     image:
       "https://www.simplilearn.com/ice9/free_resources_article_thumb/data_analyticstrendsmin.jpg",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
   {
     title: "Technical Support Engineer",
@@ -15,12 +36,54 @@ const courses = [
       "Introduction to Programming, PC Hardware Technician, Introduction to Information Technology, Windows Server Fundamentals, Career Success, Networking Fundamentals",
     image:
       "https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5d6f876de97e5975b5878cd4_technical-support-engineer.jpg",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
   {
     title: "Database Administration",
     description:
       "Introduction to Databases, Database Design &Development, Database Programming, Database Administration, Data Warehousing",
     image: "https://s7280.pcdn.co/wp-content/uploads/2016/06/database-blue.png",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
   {
     title: "Web and Computer Programming",
@@ -28,6 +91,27 @@ const courses = [
       "Programming Building Blocks, Programming with Functions, JavaScript Language, Programming with Classes, Career Development, Web Frontend Development I, Web Fundamentals",
     image:
       "https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
   {
     title: "System Administration",
@@ -35,6 +119,27 @@ const courses = [
       "Networking, Network Design I, Systems Security I, Operating Systems I, Operating Systems II",
     image:
       "https://www.betterteam.com/images/unix-system-administrator-job-description-6010x4012-2020128.jpeg?crop=21:16,smart&width=420&dpr=2&format=pjpg&auto=webp&quality=85",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
   {
     title: "Cyber Security",
@@ -42,6 +147,27 @@ const courses = [
       "Introduction to Digital Security, Secured Enterprise Architecture (SEA), Risk and Mitigation, Threats Attacks & Vulnerabilities, Cyber Warfare",
     image:
       "https://st4.depositphotos.com/22162388/23954/i/450/depositphotos_239549088-stock-photo-cyber-security-data-protection-information.jpg",
+    syllabus: {
+      beginner: [
+        "Data Theory",
+        "Statistics",
+        "Cleaning Techniques",
+        "Data Manipulation",
+      ],
+      intermediate: [
+        "Data Analysis Methodologies",
+        "Introduction to HR Analytics",
+        "Data Analytics Tools",
+      ],
+      expert: [
+        "Visualization Techniques & Projects",
+        "Introduction to Business Analytics",
+      ],
+    },
+    demand: "Data Analyst, Business Analyst, Data Engineer",
+    benefit:
+      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
+    softwareSkills: "Technical Writing and Reporting",
   },
 ];
 
