@@ -102,6 +102,7 @@ nav a {
 }
 
 .left-nav img {
+  margin-left: 20px;
   height: 100%;
   max-width: 100%;
 }
@@ -379,6 +380,10 @@ main {
 }
 
 @media (max-width: 767px) {
+  nav {
+    padding-left: 0;
+  }
+
   .banner-container {
     height: auto;
   }
