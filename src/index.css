@@ -310,6 +310,9 @@ main {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  width: 80px;
+  display: block;
+  margin-top: 24px;
 }
 
 /* CourseSlider.css */
@@ -416,11 +419,26 @@ main {
 
   .modal-content {
     max-width: 90%;
-    max-height: 80vh;
+    max-height: 90vh;
   }
 
   .modal-body {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .image-container {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+
+  .enroll-button {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
