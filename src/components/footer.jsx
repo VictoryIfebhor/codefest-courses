@@ -1,11 +1,10 @@
+import footerLogo from "../assets/footer-logo.png";
+
 export const Footer = () => {
   return (
     <footer id="footer">
       <div className="left-footer">
-        <img
-          src="https://codefestuniversity.online/assets/logo-fa6ae0c9.png"
-          alt="Company Logo"
-        />
+        <img src={footerLogo} alt="Company Logo" />
       </div>
       <div className="right-footer">
         <div className="contact-info">

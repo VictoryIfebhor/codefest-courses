@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { ContentSection } from "./contentSection";
+import person01Image from "../assets/testimonials/person01.png";
+import person02Image from "../assets/testimonials/person02.png";
+import person03Image from "../assets/testimonials/person03.png";
 
 const Testimonials = () => {
   // Define your testimonial data
@@ -10,7 +13,7 @@ const Testimonials = () => {
       occupation: "Student",
       comment:
         "I Thank Codefest for this wonderful program. They really helped me kickstart my coding journey by giving me the strong foundation that I needed to excel. I couldn't have asked for a better experience. Thank you.",
-      url: "https://codefestuniversity.online/assets/people01-d3d1b087.png",
+      url: person01Image,
     },
     {
       id: 2,
@@ -18,7 +21,7 @@ const Testimonials = () => {
       occupation: "Student",
       comment:
         "I owe the initiators of this program a big 'THANK YOU'. The program has impacted on my life in no small ways. when i thought of web design, I never meant it to be as intense as it turned out to be but with all the helpful activities and exercises that the course provided I was able to scale through perfectly. Thanks and Thanks again",
-      url: "https://codefestuniversity.online/assets/people02-aec8cf4b.png",
+      url: person02Image,
     },
     {
       id: 3,
@@ -26,7 +29,7 @@ const Testimonials = () => {
       occupation: "Student",
       comment:
         "I'm grateful to Codefest Academy and to all initiators of this program for giving me a chance to be a web developer. Web design is the dream i wished for it to come true and and Codefest made me achieve this dreams that i have passion for, May God continue to bless you all for this good work.",
-      url: "https://codefestuniversity.online/assets/people03-946f1a16.png",
+      url: person03Image,
     },
   ];
 
