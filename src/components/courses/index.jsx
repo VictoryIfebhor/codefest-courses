@@ -37,25 +37,17 @@ const courses = [
     image: courseImages.technicalSupportImage,
     syllabus: {
       beginner: [
-        "Data Theory",
-        "Statistics",
-        "Cleaning Techniques",
-        "Data Manipulation",
+        "Introduction to Programming",
+        "Introduction to Information Technology",
       ],
-      intermediate: [
-        "Data Analysis Methodologies",
-        "Introduction to HR Analytics",
-        "Data Analytics Tools",
-      ],
-      expert: [
-        "Visualization Techniques & Projects",
-        "Introduction to Business Analytics",
-      ],
+      intermediate: ["Networking Fundamentals", "PC Hardware Technician"],
+      expert: ["Operating Systems", "Windows Server Fundamentals"],
     },
-    demand: "Data Analyst, Business Analyst, Data Engineer",
+    demand:
+      "IT support positions in small and large corporations, IT support for business process outsourcing companies",
     benefit:
-      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
-    softwareSkills: "Technical Writing and Reporting",
+      "The technical support engineer learns hands-on skills needed for successful software installations and maintaining computer hardware. Additional projects will increase your experience and expertise such as troubleshooting, active directory, and understanding operating systems.",
+    softwareSkills: "Word Processing, Career Success",
   },
   {
     title: "Database Administration",
@@ -63,26 +55,22 @@ const courses = [
       "Introduction to Databases, Database Design &Development, Database Programming, Database Administration, Data Warehousing",
     image: courseImages.databaseAdministrationImage,
     syllabus: {
-      beginner: [
-        "Data Theory",
-        "Statistics",
-        "Cleaning Techniques",
-        "Data Manipulation",
-      ],
+      beginner: ["Introduction to Databases", "Database Design & Development"],
       intermediate: [
-        "Data Analysis Methodologies",
-        "Introduction to HR Analytics",
-        "Data Analytics Tools",
+        "Database Programming",
+        "Database Administration 1 (Use Case)",
       ],
       expert: [
-        "Visualization Techniques & Projects",
-        "Introduction to Business Analytics",
+        "Database Administration 2 (Oracle)",
+        "Data Warehousing",
+        "Data Transaction and Mining Techniques.",
       ],
     },
-    demand: "Data Analyst, Business Analyst, Data Engineer",
+    demand:
+      "General or database programmer, Database designer or developer, Data warehouse",
     benefit:
-      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
-    softwareSkills: "Technical Writing and Reporting",
+      "Studying in this field will prepare you to develop and maintain database programs, which are central to business information systems. You will work with systems that provide file creation as well as data entry and query functions.",
+    softwareSkills: "Entreprenuership Development",
   },
   {
     title: "Web and Computer Programming",
@@ -91,25 +79,22 @@ const courses = [
     image: courseImages.webProgrammingImage,
     syllabus: {
       beginner: [
-        "Data Theory",
-        "Statistics",
-        "Cleaning Techniques",
-        "Data Manipulation",
+        "Web Fundamentals",
+        "Programming with Functions, Web",
+        "Introduction to Python",
       ],
       intermediate: [
-        "Data Analysis Methodologies",
-        "Introduction to HR Analytics",
-        "Data Analytics Tools",
+        "Front End Development",
+        "JavaScript",
+        "Version Control Mechanics",
       ],
-      expert: [
-        "Visualization Techniques & Projects",
-        "Introduction to Business Analytics",
-      ],
+      expert: ["Backend Development", "Database System", "APIs Development"],
     },
-    demand: "Data Analyst, Business Analyst, Data Engineer",
+    demand:
+      "Write programs to accomplish meaningful tasks in a variety of domains. Design websites that are visually appealing and effective. Develop dynamic webpages that follow industry standards and best practices. Learn and apply new technology and techniques in future programming.",
     benefit:
-      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
-    softwareSkills: "Technical Writing and Reporting",
+      "Training in web and computer programming prepares you for the constantly changing field of web and software and development by helping you gain skills in developing software, designing user interfaces, and a variety of programming languages.",
+    softwareSkills: "Career Development, Graphics Design",
   },
   {
     title: "System Administration",
@@ -118,25 +103,26 @@ const courses = [
     image: courseImages.systemAdministrationImage,
     syllabus: {
       beginner: [
-        "Data Theory",
-        "Statistics",
-        "Cleaning Techniques",
-        "Data Manipulation",
+        "Hardware Troubleshooting",
+        "Introduction to Compiler Construction",
+        "Networking",
       ],
       intermediate: [
-        "Data Analysis Methodologies",
-        "Introduction to HR Analytics",
-        "Data Analytics Tools",
+        "Network Design",
+        "Small Networks",
+        "Routings and Network Protocol",
       ],
       expert: [
-        "Visualization Techniques & Projects",
-        "Introduction to Business Analytics",
+        "System Security",
+        "Operating System I & II",
+        "Cloud Service Engineering",
       ],
     },
-    demand: "Data Analyst, Business Analyst, Data Engineer",
+    demand:
+      "Desktop/IT Support, Windows system administrator, Linux administrator, Network support, Network engineer",
     benefit:
-      "Modern businesses are largely dependent data. Data has been proven to be one of the most valuable asset in the business venture. HR Analytics, Business Analytics, etc resides within the domain of data analytics.",
-    softwareSkills: "Technical Writing and Reporting",
+      "System administration is closely related to computer science, including learning skills in scripting, servers, and network administration. Specific softwares and systems that are in high demand are Amazon web services, Azure, Linux, Powershell, and others.",
+    softwareSkills: "Entreprenuership Development",
   },
   {
     title: "Cyber Security",
