@@ -39,7 +39,9 @@ export const CourseModal = ({ course, onClose }) => {
               ))}
             </ul>
             <a
-              href="https://wa.me/+2348033936023"
+              href={`https://wa.me/+2348033936023?text=${encodeURIComponent(
+                `Hello! I am interested in purchasing the ${course.title} course. How do I get started?`
+              )}`}
               target="_blank"
               className="enroll-button"
             >
