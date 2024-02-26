@@ -10,7 +10,7 @@ export const CourseModal = ({ course, onClose }) => {
           </button>
         </div>
         <div className="modal-body">
-          <div className="image-container">
+          <div className="modal-image-container">
             <img
               src={course.image}
               alt={course.title}
