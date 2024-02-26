@@ -381,7 +381,9 @@ main {
 
 @media (max-width: 767px) {
   nav {
-    padding-left: 0;
+    padding: 10px;
+    padding-left: 0px;
+    height: 60px;
   }
 
   .banner-container {
